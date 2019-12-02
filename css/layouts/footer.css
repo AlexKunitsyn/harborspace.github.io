@@ -1,0 +1,30 @@
+.footer {
+  text-align: center;
+  background: #F7F7F7;
+  padding: 18px 0; }
+  .footer .footer-logo {
+    font-weight: 400;
+    font-size: 22px; }
+  .footer .footer-holder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .footer .footer-holder .menu li a {
+      text-transform: none;
+      font-size: 14px;
+      line-height: 18px; }
+  .footer .inst-fb li {
+    margin: 0; }
+  .footer .copyright {
+    padding: 16px 0 0 0;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8D8D8D; }
+
+/*# sourceMappingURL=footer.css.map */
