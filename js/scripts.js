@@ -3,7 +3,7 @@ $(document).ready(function(){
         dots: true,
         prevArrow: '<button class="slick-prev" aria-label="Previous" type="button"><img src="images/left.svg" alt=""></button>',
         nextArrow: '<button class="slick-next" aria-label="Next" type="button"><img src="images/right.svg" alt=""></button>',
-        autoplay: false,
+        autoplay: true,
 });
 });
 
@@ -11,14 +11,19 @@ $(document).ready(function(){
 $('.hamburger').on('click', function () {
     $('.header-holder').toggleClass('active');
     $(this).toggleClass('active');
-    $('.wrapper').toggleClass('open-menu');
+   /* $('.wrapper').toggleClass('open-menu');*/
 });
+
+$('.menu a').on('click', function () {
+    $('.header-holder').removeClass('active');
+    $('.hamburger').removeClass('active');
+})
 
 
 $(".menu").on("click","a", function (event) {
     event.preventDefault();
     var id  = $(this).attr('href'),
-        top = $(id).offset().top;
+        top = $(id).offset().top -50;
     $('body,html').animate({scrollTop: top}, 1500);
 });
 
