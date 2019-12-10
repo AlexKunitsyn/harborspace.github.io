@@ -3795,7 +3795,7 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 40px auto 20px; }
+    margin: 40px auto 0; }
     @media (min-width: 481px) {
       .contacts-section .social_list {
         margin: 0;
@@ -3854,7 +3854,10 @@ p {
     .contacts-section .address-holder img, .contacts-section .working-hours img {
       margin: 8px 15px 0 0; }
   .contacts-section .address-holder img {
-    margin: 8px 13px 0 2px; }
+    margin: 8px 13px 0 -2px; }
+    @media (min-width: 481px) {
+      .contacts-section .address-holder img {
+        margin: 8px 13px 0 2px; } }
   .contacts-section .working-hours {
     -webkit-box-align: center;
         -ms-flex-align: center;
