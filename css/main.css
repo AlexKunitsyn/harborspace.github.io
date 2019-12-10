@@ -3459,8 +3459,8 @@ p {
   border: none;
   outline: none;
   padding: 10px;
-  -webkit-box-shadow: 0 20px 35px 0 rgba(19, 193, 113, 0.8);
-          box-shadow: 0 20px 35px 0 rgba(19, 193, 113, 0.8);
+  -webkit-box-shadow: 0px 31px 35px -12px #13C171;
+          box-shadow: 0px 31px 35px -12px #13C171;
   -webkit-transition: background 0.3s;
   transition: background 0.3s; }
   .btn:hover {
@@ -3818,7 +3818,7 @@ p {
       -webkit-box-flex: 1;
           -ms-flex-positive: 1;
               flex-grow: 1;
-      padding: 0 0 10px 0;
+      padding: 0;
       text-align: center;
       font-size: 17px;
       font-weight: 600;
@@ -3853,6 +3853,15 @@ p {
       font-weight: 500; }
     .contacts-section .address-holder img, .contacts-section .working-hours img {
       margin: 8px 15px 0 0; }
+  .contacts-section .address-holder img {
+    margin: 8px 13px 0 2px; }
+  .contacts-section .working-hours {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .contacts-section .working-hours img {
+      width: 25px;
+      margin: 0 15px 0 0; }
   .contacts-section .inst-fb {
     max-width: 180px;
     -webkit-box-align: center;
@@ -4069,7 +4078,7 @@ p {
     padding: 5px 10px;
     color: #20d07f; }
   .header-holder .social_list .header-phone {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 0.5px; }
     @media (min-width: 769px) {
@@ -4137,6 +4146,8 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -4148,6 +4159,11 @@ p {
       transition: opacity 0.3s; }
       .social_list li a:hover {
         opacity: 0.5; }
+  .social_list .mobile-style {
+    width: 100%; }
+    @media (min-width: 769px) {
+      .social_list .mobile-style {
+        width: auto; } }
 
 .footer {
   text-align: center;
