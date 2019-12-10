@@ -3607,6 +3607,9 @@ p {
     @media (max-width: 767px) {
       .section-offer .offer-items img {
         width: 60%; } }
+    @media (max-width: 767px) {
+      .section-offer .offer-items .custom-style img {
+        width: 70%; } }
 
 .gallery-section {
   padding: 45px 0; }
@@ -4066,9 +4069,12 @@ p {
     padding: 5px 10px;
     color: #20d07f; }
   .header-holder .social_list .header-phone {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px; }
+    @media (min-width: 769px) {
+      .header-holder .social_list .header-phone {
+        font-size: 18px; } }
     .header-holder .social_list .header-phone img {
       margin: 0 10px 0 0; }
 
