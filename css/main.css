@@ -4140,7 +4140,7 @@ p {
     padding: 5px 10px;
     color: #20d07f; }
     .header-holder .social_list li img {
-      width: 26px; }
+      /*width: 26px;*/ }
       @media (min-width: 769px) {
         .header-holder .social_list li img {
           width: 23px; } }
