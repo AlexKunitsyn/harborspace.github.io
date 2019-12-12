@@ -172,7 +172,13 @@
 								</div>
 							</li>
 						</ul>
-						<a href="#contact" class="btn price-item wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s" data-wow-offset="20">Забронировать</a>
+						<div class="btn-holder wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1s" data-wow-offset="20" style="position: relative">
+							<a href="#contact" class="btn price-item"  style="box-shadow: 0px 14px 40px 0px rgba(33, 237, 115, 0); z-index: 2">
+								Забронировать
+							</a>
+							<div style="width: 180px; height: 100%; position: absolute; box-shadow: 0px 14px 40px 0px rgba(33, 237, 115, 0.6); left: 50%; transform: translateX(-50%); top: 0"></div>
+						</div>
+
 					</div>
 				</section>
 				<section class="contacts-section" id="contact">
@@ -215,8 +221,13 @@
 											<input class="input-form" type="text">
 											<span class="fake-placeholder">Имя</span>
 										</label>
+										<div class="btn-holder" style="position: relative; display: inline-block">
+											<button class="btn btn-send" style="position: relative; box-shadow: 0px 14px 40px 0px rgba(33, 237, 115, 0);">
+												Отправить
+											</button>
+											<div style="width: 180px; height: 100%; position: absolute; box-shadow: 0px 14px 40px 0px rgba(33, 237, 115, 0.6); z-index: 0; top: 0; left: 50%; transform: translateX(-50%);"></div>
+										</div>
 
-										<button class="btn btn-send">Отправить</button>
 									</form>
 								</div>
 							</div>
