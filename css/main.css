@@ -3508,10 +3508,16 @@ p {
   top: 0
 }*/
 .container {
-  padding: 0 15px;
+  padding: 0 25px;
   max-width: 1054px;
   width: 100%;
   margin: 0 auto; }
+
+@media (min-width: 769px) {
+  .container {
+    padding: 0 15px;
+  }
+}
 
 .col {
   width: 100%; }
