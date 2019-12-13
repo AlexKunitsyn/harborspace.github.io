@@ -404,7 +404,7 @@
           this.vendorSet(box.style, { animationDuration: duration });
         }
         if (delay) {
-          if(window.onresize>760) {
+          if($(window).width() > '760') {
             this.vendorSet(box.style, { animationDelay: delay });
           }
 
