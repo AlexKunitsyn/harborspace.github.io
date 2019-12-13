@@ -404,7 +404,10 @@
           this.vendorSet(box.style, { animationDuration: duration });
         }
         if (delay) {
-          this.vendorSet(box.style, { animationDelay: delay });
+          if(window.onresize>760) {
+            this.vendorSet(box.style, { animationDelay: delay });
+          }
+
         }
         if (iteration) {
           this.vendorSet(box.style, { animationIterationCount: iteration });
