@@ -3711,8 +3711,10 @@ p {
     .price-section {
       padding: 100px 0; } }
   .price-section h5 {
+    line-height: 1;
     font-size: 16px;
     color: #9AA4AC;
+    margin: 0 0 20px;
     text-transform: uppercase; }
   .price-section .price-list {
     display: -webkit-box;
@@ -3736,7 +3738,7 @@ p {
           width: 25%; } }
       .price-section .price-list .price-item strong {
         font-size: 24px;
-        line-height: 1.28;
+        line-height: 0.8;
         padding: 0 0 15px;
         display: block;
         font-weight: 600;
@@ -3744,7 +3746,7 @@ p {
         @media (min-width: 481px) {
           .price-section .price-list .price-item strong {
             font-size: 30px;
-            padding: 0 0 30px; } }
+            padding: 0 0 25px; } }
       .price-section .price-list .price-item .holder {
         background: #fff;
         padding: 30px;
@@ -3760,7 +3762,7 @@ p {
                   box-shadow: 0px 11px 35px 6px rgba(0, 0, 0, 0.1); }
         @media (min-width: 769px) {
           .price-section .price-list .price-item .holder {
-            padding: 35px; } }
+            padding: 30px 35px 35px; } }
   .price-section .price-detail {
     width: 160px;
     margin: 0 auto; }
