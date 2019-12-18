@@ -4294,4 +4294,22 @@ p {
     line-height: 18px;
     color: #8D8D8D; }
 
+.viber-desktop {
+  display: none;
+}
+
+.viber-mob {
+  display: block;
+}
+
+@media (min-width: 769px) {
+  .viber-desktop {
+    display: block;
+  }
+
+  .viber-mob {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
